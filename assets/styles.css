@@ -159,3 +159,32 @@ h1{
   .wide-img,.image-grid img{height:260px}
   .page{padding-top:36px}
 }
+
+.essay sup{
+  font-size:.65em;
+  line-height:0;
+  vertical-align:super;
+  margin-left:1px;
+}
+.essay sup a{
+  color:var(--gold);
+  text-decoration:none;
+}
+.footnotes{
+  margin:38px 0 28px;
+  padding-top:18px;
+  border-top:1px solid var(--line);
+  max-width:920px;
+}
+.footnotes ol{
+  margin:0;
+  padding-left:22px;
+}
+.footnotes li{
+  font-size:14px;
+  line-height:1.5;
+  margin:0 0 10px;
+}
+.footnotes a{
+  color:var(--gold);
+}
